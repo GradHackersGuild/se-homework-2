@@ -2,3 +2,4 @@
 ![Language](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Platform](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Unit tests](https://github.com/GradHackersGuild/se-homework/actions/workflows/git-commit-workflow.yml/badge.svg)
+![PEP8 Check](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/hw-2-workflow.yml/badge.svg)
