@@ -1,0 +1,26 @@
+name: HW 2 workflow -> Unit Test Cases
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install Dependencies and pytest
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install pytest coverage
+      - name: Run Unit Tests
+        run: |
+          coverage run -m pytest
+      - name: Generate Coverage Report
+        run: |
+          coverage report -m

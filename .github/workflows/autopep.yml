@@ -1,0 +1,22 @@
+name: HW 2 workflow -> Autopep 8
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+      - name: Install autopep8
+        run: |
+          pip install autopep8
+      - name: Run autopep8
+        run: |
+          autopep8 --diff --exit-code --recursive .
