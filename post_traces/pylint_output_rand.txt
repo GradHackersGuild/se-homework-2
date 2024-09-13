@@ -1,0 +1,9 @@
+************* Module rand
+rand.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+rand.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+rand.py:6:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+rand.py:5:4: W0612: Unused variable 'shuffled_num' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 3.33/10
+
