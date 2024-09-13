@@ -11,3 +11,4 @@ def test_mergesort2():
 def test_mergesort3():
     arr = [-10,-17,-5,-5,-3,1,-1000,10]
     assert OP.mergeSort(arr) == [-1000, -17, -10, -5, -5, -3, 1, 10]
+    
