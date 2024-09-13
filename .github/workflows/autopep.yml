@@ -19,4 +19,4 @@ jobs:
           pip install autopep8
       - name: Run autopep8
         run: |
-          autopep8 --diff --exit-code --recursive .
+          autopep8 --exit-code --recursive .
