@@ -16,4 +16,4 @@ jobs:
           pip install pylint
       - name: Run linters
         run: |
-          pylint $(find . -name "*.py") > post_traces/pylint_report.txt || true
+          pylint $(find . -name "*.py") > post_traces/pylint_report.txt
