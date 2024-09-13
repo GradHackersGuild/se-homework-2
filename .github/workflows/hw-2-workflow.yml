@@ -37,4 +37,4 @@ jobs:
         continue-on-error: true
       - name: Test with pytest
         run: |
-          coverage run -m pytest  -v -s
+          pytest
