@@ -1,0 +1,1 @@
+rand.py:4:5: local variable 'shuffled_num' is assigned to but never used
