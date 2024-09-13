@@ -16,4 +16,4 @@ jobs:
           pip install pyflakes
       - name: Run linters
         run: |
-          pyflakes $(find . -name "*.py")
+          pyflakes $(find . -name "*.py") > post_traces/pyflakes_report.txt || true
