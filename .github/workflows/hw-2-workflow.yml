@@ -35,6 +35,12 @@ jobs:
           pip install ruff  
           ruff --format=github --target-version=py310 .
         continue-on-error: true
+      - name: Install pytest
+        run: |
+          pip install pytest coverage
       - name: Test with pytest
         run: |
-          pytest
+          coverage run -m pytest  -v -s
+      - name: Generate Coverage Report
+        run: |
+          coverage report -m
