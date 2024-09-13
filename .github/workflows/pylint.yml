@@ -1,0 +1,19 @@
+name: Python PyLint
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: |
+          pip install pylint
+      - name: Run linters
+        run: |
+          pylint $(find . -name "*.py") > post_traces/pylint_report.txt
