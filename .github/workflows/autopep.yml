@@ -1,4 +1,4 @@
-name: HW 2 workflow -> Autopep 8
+name: Autopep 8
 
 on: [push]
 
