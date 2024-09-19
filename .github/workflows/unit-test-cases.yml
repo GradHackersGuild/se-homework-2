@@ -1,4 +1,4 @@
-name: HW 2 workflow -> Unit Test Cases
+name: Unit Test Cases
 
 on: [push]
 
