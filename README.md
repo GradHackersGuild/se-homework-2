@@ -7,3 +7,4 @@ Group 38 - SE Homwork 2
 [![PEP8 Check](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/autopep.yml/badge.svg)](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/autopep.yml)
 [![PyLint Check](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/pylint.yml/badge.svg)](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/pylint.yml)
 [![PyFlake Check](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/pyflake.yml/badge.svg)](https://github.com/GradHackersGuild/se-homework-2/actions/workflows/pyflake.yml)
+[![codecov](https://codecov.io/gh/GradHackersGuild/se-homework-2/graph/badge.svg?token=8RXQY068G7)](https://codecov.io/gh/GradHackersGuild/se-homework-2)
